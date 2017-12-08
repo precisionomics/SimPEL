@@ -1,4 +1,5 @@
 #SimPEL
+==
 
 SimPEL is short for Simulation-based Power Estimation for sequencing studies of Low-prevalence conditions. SimPEL addresses the need for power estimation in low-prevalence condition studies, taking into account their inherently small sample sizes and analytical procedures. SimPEL integrates customizable parameters to realistically model study design outcomes and provide applicable information towards further refinement of experimental procedure. SimPEL is implemented as a function of the established JAWAMix5 tool (Long et al., 2013)⁠, an HDF5-based Java implementation for association mapping.
 
