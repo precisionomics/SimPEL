@@ -20,11 +20,13 @@ Usage
 ==
 
 All parameters are implemented as:
+```
 java -Xmx4g -jar /filepath/jawamix5.jar simpel <parameters>.
-
+```
 An example command line is as follows:
+```
 java -Xmx4g -jar jawamix5.jar simpel -population_genotypes g1k_all.hdf5 -out example_output.txt -causal_gene_pool HLA_ErbB.txt -population_pedigree integrated_call_samples_v2.20130502.ALL.ped -all_genes gencode.v12.genenames.gtf -mafs ExAC.r0.3.1.sites.AC.txt -pathogenicity mcap_v1_0.txt -tmp_folder tmp_chrs/ -num_cases 10 -parents 8 -compound_het
-
+```
 In this example, all the files are present in current working directory. The number of case-control pairings is designated as 10, of which 8 of the controls are parents of the cases. Instances of compound heterozygosity will also be considered by the program, as indicated by the inclusion of the -compound_het flag.
 
 For all file names, the file path must be specified if the file in question is not present in the current working directory.
